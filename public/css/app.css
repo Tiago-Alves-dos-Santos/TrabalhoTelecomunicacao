@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  position: relative;
+  box-sizing: border-box;
+}
+
+.error-message {
+  color: red;
+}
+
+/*Pagina Home*/
+h1#titulo-trabalho {
+  background-color: darkcyan;
+  color: white;
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 15px;
+}
+
+div.container-torres {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  margin-top: 20px;
+}
+div.container-torres div.container-torre {
+  display: flex;
+  flex-direction: column;
+}
+div.container-torres div.torre {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+div.container-torres div.torre img {
+  width: 160px;
+}
+div.container-torres div.textLabel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px 0 0 0;
+}
+div.container-torres div.textLabel span {
+  color: white;
+  background-color: #005858;
+  padding: 10px 15px;
+}
+div.container-torres div.textLabel span.span-value {
+  background-color: #002525;
+}
+div.container-torres div.container-load img {
+  width: 160px;
+}
+
+div.container-acoes {
+  margin-top: 20px;
+}
+
+div.container-result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+div.container-result h3 {
+  color: green;
+}
