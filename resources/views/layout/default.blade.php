@@ -14,7 +14,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12 d-flex justify-content-center">
-            <h1 id="titulo-trabalho">Trabalho de TeleComunicação</h1>
+            <h1 id="titulo-trabalho">Trabalho de TeleComunicações</h1>
         </div>
     </div>
     <div class="row">
